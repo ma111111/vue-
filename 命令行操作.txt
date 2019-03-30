@@ -1,0 +1,79 @@
+window+r打开命令行输入cmd;
+打开本地文件:shift+鼠标右键;
+获取IP地址:ipconfig;
+下载live server: 
+1.node空格-v;
+2.npm i live server -g;
+手机打开命令:
+1.输入live-server --host=ip地址;
+cmd找路径切换盘符命令cd+tab.d:
+
+git命名:
+1:连接码云仓库  git clone+码云仓库的地址;
+1:创建仓库  git init
+2:添加文件  git add .   或者指定路径的文件名(注意路径);             ==只要文件内容发生改变需再次执行
+3:添加备注  git commit -m '详细的备注'                                                       ==只要文件内容发生改变需再次执行
+4:查看文件状态  git status 如果文件内容发生改变会提示modified(修改的意思) ==只要文件内容发生改变需再次执行
+5:查看                            提交日志  git log
+5:查看   简洁版        	     提交日志  git log --oneline
+5:查看   最近n(数字)条     提交日志  git log -n
+5:查看   更加详细的         提交日志  git reflog                                                ==主要应用方法
+6:回退  git reset --hard head~0  	代表回退到当前位置
+6:回退  git reset --hard head~1  	代表回退到上一次提交的位置
+6:回退  git reset --hard head~2  	代表回退到上上一次提交的位置
+6:回退  git reset --hard head^    	代表回退到上一次提交的位置  等同于  git reset --hard head~1
+6:回退  git reset --hard+版本信息号	版本信息号即:查看提交日志前的编码,类似于id号,具有唯一性
+7:创建分支  git branch+分支名
+8:删除分支  git branch -d+分支名
+9:查看所有分支名称  git branch
+10:切换分支/查看分支内容  git checkout+分支名
+11:合并分支  git merge+需要合并的分支     合并后的内容显示在当前分支,合并的分支内容依然存在
+12:保持和云端仓库同步  git pull
+13:上传添加  git push
+
+-----有冲突无法提交,必须解决冲突后才能提交-----  
+svn产生冲突会生成四个副本文件,需要选其中一个文件,并改其后缀名为html;
+svn命令:
+1:码云页面选择仓库--右上角管理--基本信息里面勾选svn
+2:克隆处选择svn的地址复制
+3:桌面右键点击svn checkout
+4:生成文件后,在文件空白处右键点击选择svn update
+5:修改文件后重复svn update
+6:右键点击svn commit即可
+
+生成package.json命令行:npm init -y
+
+npm i i5ting_toc -g
+
+使用：i5ting_toc -f，会自动生成一个preview文件
+
+下载jquery包：cnpm i jquery -S/cnpm i jquery --save
+
+卸载：cnpm uninstall jquery -S
+下载node_models:cnpm i
+nodemoon server.js
+
+express：
+步骤：
+1.npm init -y，直接在根目录中初始化项目，得到package.json
+2.npm i express -S 接着在根目录中下载express包，会生成一个node_models文件夹，里面包含了express文件
+3.nodemoon 02.js 运行服务器，修改源文件，可以直接进行刷新
+
+启动文件用npm start ，将package.json中的start:‘node app.js’
+
+yarn add jquery 下载jquery的另一种方式
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
